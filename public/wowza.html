@@ -1,0 +1,27 @@
+<script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script>
+<script>
+var wowplay = WowzaPlayer.create('wowplay', {
+                "license": "PLAY2-b7NYk-R6faG-n37eu-nmYmE-KGADf",
+                // "sourceURL": "http://wow2.mari.co.id:1935/mari/most/playlist.m3u8",
+                "sourceURL": "http://wow2.mari.co.id:1935/mari/mustang/playlist.m3u8",
+                // "sourceURL": "http://175.103.58.72:8000",
+                "autoPlay": false,
+                "audioOnly": true,
+                "debugLevel": "off"
+            });
+            // wowplay.onMetadata(function (event) {
+            //     var md = event.value;
+            //     var md_split = md.split(' - ');
+            //     $('#popup_artist').html(md_split[0]);
+            //     $('#popup_song').html(md_split[1]);
+            // });
+            // wowplay.onLoad(function () {
+            //     // $('#wowplay').find('#wowplay-Info').remove();
+            //     // $('#wowplay').find('#wowplay-SeekBarContainer').remove();
+            // });
+</script>
+<button id="ok">OK</button>
+<div id="wowplay" style="display:none;"></div>
+<script>
+document.getElementById('ok').addEventListener('click', (e) => { wowplay.play(); });
+</script>
