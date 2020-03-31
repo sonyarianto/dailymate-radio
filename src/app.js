@@ -160,7 +160,6 @@ new Vue({
       document.addEventListener( 'visibilitychange', e => { this.visible = ( document.visibilityState === 'visible' ) } );
       window.addEventListener( 'hashchange', e => this.applyRoute( window.location.hash ) );
       window.addEventListener( 'keydown', this.onKeyboard );
-      document.getElementById('h2header').addEventListener('click', e => { window.location.href = '/'; });
       // window.addEventListener('click', e => { this.gesture_action = true; });
       // document.onclick = e => { this.gesture_action = true; };
       this.init = true;
@@ -216,6 +215,10 @@ new Vue({
       else { this.sortOrder = order || 'asc'; }
       this.sortParam = param;
       _store.set( 'sorting_data', { param: this.sortParam, order: this.sortOrder } );
+    },
+
+    goToHome() {
+      this.setRoute('/');
     },
 
     // load saved favs list from store
