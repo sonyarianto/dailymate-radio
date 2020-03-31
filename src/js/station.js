@@ -32,7 +32,7 @@ export default {
                       //   "largeimage": "/img/stations/4.jpg"
                       // },
                       {
-                        "id": "-thebeat-radio-plus-bali",
+                        "id": "thebeat-radio-plus-bali",
                         "country_display": "Indonesia",
                         "city_display": "Denpasar, Bali",
                         "frequency": "98.5 FM",

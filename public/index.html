@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="IE=Edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <meta name="description" id="description" content="Dailymate Radio is the ultimate online radio directory worldwide." />
+    <meta name="description" id="description" content="Dailymate Radio is the ultimate online radio aggregator worldwide." />
     <meta name="author" content="Dailymate Team. The interface and engine is based on Rainner Lins a.k.a @raintek_ Soma FM Player" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/icons-radio/apple-icon-57x57.png">
@@ -95,7 +95,7 @@
             <section class="player-greet" v-if="!hasChannel && !hasError">
               <div class="fx fx-slide-left push-bottom"><h1>Pick a Station</h1></div>
               <!-- <div class="fx fx-slide-left fx-delay-1 push-bottom">This is a music streaming player for the channels provided by SomaFM.com. Just pick a station from the sidebar to the right to start listening.</div> -->
-              <div class="fx fx-slide-left fx-delay-1 push-bottom">This is an worldwide online radio streaming player. Just pick a station from the sidebar to the right to start listening.</div>
+              <div class="fx fx-slide-left fx-delay-1 push-bottom" style="line-height:1.37em;">The ultimate worldwide online radio streaming aggregator. Pick a station from the sidebar to the right to start listening.</div>
               <div class="fx fx-slide-up fx-delay-2 pad-top"><button class="cta-btn" @click="toggleSidebar( true )"><i class="fa fa-headphones">&nbsp;</i> View Stations</button></div>
             </section>
 
@@ -126,10 +126,10 @@
                     <!-- <div class="text-secondary">Country</div>
                     <div>{{ channel.country_display }}</div>
                     <div style="height:25px;"></div> -->
-                    <div class="text-secondary">Description</div>
+                    <!-- <div class="text-secondary">Description</div> -->
                     <div>{{ channel.description }}</div>
                     <div style="height:25px;"></div>
-                    <div class="fx fx-slide-up fx-delay-2 pad-top"><button class="cta-btn" @click="toggleSidebar( true )"><i class="fa fa-headphones">&nbsp;</i> View Stations</button></div>
+                    <div class="fx fx-slide-up fx-delay-2 pad-top"><button class="cta-btn" @click="togglePlay()"><i v-if="loading" class="fa fa-circle-notch fx fx-spin-right" key="wait"></i><i v-else-if="playing" class="fa fa-stop" key="stop"></i><i v-else class="fa fa-play" key="play"></i></button>&nbsp;&nbsp;<button class="cta-btn" @click="toggleSidebar( true )"><i class="fa fa-headphones">&nbsp;</i> View Stations</button></div>
                   </div>
 
                   <!-- current track -->
@@ -296,7 +296,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <!-- <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script> -->
-    <script src="/bundles-radio/app.min.js?v=202003312100"></script>
+    <script src="/bundles-radio/app.min.js?v=202003312252"></script>
 
   </body>
 </html>
