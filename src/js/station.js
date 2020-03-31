@@ -134,7 +134,7 @@ export default {
                         "id": "trax-fm-jakarta",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
-                        "frequency": "104.1 FM",
+                        "frequency": "101.4 FM",
                         "title": "Trax FM",
                         "stream_uri": "https://stream.radiojar.com/rrqf78p3bnzuv",
                         "description": "Youth radio station that carries the campaign \"Hits What You Like\"",
@@ -184,7 +184,7 @@ export default {
         // c.songsurl  = '';
         // c.infourl   = '';
         // c.twitter   = '';
-        c.route     = '/channel/'+ c.id;
+        c.route     = '/channel/' + c.id;
         // c.listeners = 0;
         // c.updated   = 0;
         // c.favorite  = false;
