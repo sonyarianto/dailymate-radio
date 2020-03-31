@@ -123,11 +123,13 @@
                   <!-- description -->
                   <div class="card push-bottom fx fx-slide-up fx-delay-3">
                     <!-- <div class="text-secondary">Mixed by DJ {{ channel.dj | toText( 'N/A' ) }}.</div> -->
-                    <div class="text-secondary">Country</div>
+                    <!-- <div class="text-secondary">Country</div>
                     <div>{{ channel.country_display }}</div>
-                    <div style="height:25px;"></div>
+                    <div style="height:25px;"></div> -->
                     <div class="text-secondary">Description</div>
                     <div>{{ channel.description }}</div>
+                    <div style="height:25px;"></div>
+                    <div class="fx fx-slide-up fx-delay-2 pad-top"><button class="cta-btn" @click="toggleSidebar( true )"><i class="fa fa-headphones">&nbsp;</i> View Stations</button></div>
                   </div>
 
                   <!-- current track -->
@@ -294,7 +296,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <!-- <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script> -->
-    <script src="/bundles-radio/app.min.js?v=202003312029"></script>
+    <script src="/bundles-radio/app.min.js?v=202003312100"></script>
 
   </body>
 </html>
