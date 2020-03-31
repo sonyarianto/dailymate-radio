@@ -179,16 +179,16 @@ export default {
       for ( let c of channels ) {
         // if ( !Array.isArray( c.playlists ) ) continue;
         c.stream_uri = c.stream_uri;
-        c.plsfile   = '';
-        c.mp3file   = '';
-        c.songsurl  = '';
-        c.infourl   = '';
-        c.twitter   = '';
+        // c.plsfile   = '';
+        // c.mp3file   = '';
+        // c.songsurl  = '';
+        // c.infourl   = '';
+        // c.twitter   = '';
         c.route     = '/channel/'+ c.id;
-        c.listeners = 0;
-        c.updated   = 0;
-        c.favorite  = false;
-        c.active    = false;
+        // c.listeners = 0;
+        // c.updated   = 0;
+        // c.favorite  = false;
+        // c.active    = false;
         output.push( c );
       }
     }
