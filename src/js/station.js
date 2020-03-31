@@ -11,6 +11,7 @@ export default {
     const channels = {"channels": [
                       // {
                       //   "id": "ardan-radio-bandung",
+                      //   "country": "id",
                       //   "country_display": "Indonesia",
                       //   "city_display": "Bandung",
                       //   "frequency": "105.9 FM",
@@ -22,6 +23,7 @@ export default {
                       // },
                       // {
                       //   "id": "bens-radio-jakarta",
+                      //   "country": "id",
                       //   "country_display": "Indonesia",
                       //   "city_display": "Jakarta",
                       //   "frequency": "106.2 FM",
@@ -33,6 +35,7 @@ export default {
                       // },
                       {
                         "id": "thebeat-radio-plus-bali",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Denpasar, Bali",
                         "frequency": "98.5 FM",
@@ -44,6 +47,7 @@ export default {
                       },
                       {
                         "id": "brava-radio-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "103.8 FM",
@@ -55,6 +59,7 @@ export default {
                       },
                       {
                         "id": "cosmopolitan-fm-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "90.4 FM",
@@ -66,6 +71,7 @@ export default {
                       },
                       // {
                       //   "id": "delta-fm-jakarta",
+                      //   "country": "id",
                       //   "country_display": "Indonesia",
                       //   "city_display": "Jakarta",
                       //   "frequency": "99.1 FM",
@@ -77,6 +83,7 @@ export default {
                       // },
                       {
                         "id": "hardrock-fm-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "87.6 FM",
@@ -88,6 +95,7 @@ export default {
                       },
                       {
                         "id": "indika-fm-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "91.6 FM",
@@ -99,6 +107,7 @@ export default {
                       },
                       {
                         "id": "i-radio-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "89.6 FM",
@@ -110,6 +119,7 @@ export default {
                       },
                       {
                         "id": "prambors-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "102.2 FM",
@@ -121,6 +131,7 @@ export default {
                       },
                       // {
                       //   "id": "suarasurabaya-surabaya",
+                      //   "country": "id",
                       //   "country_display": "Indonesia",
                       //   "city_display": "Surabaya",
                       //   "frequency": "100 FM",
@@ -132,6 +143,7 @@ export default {
                       // },
                       {
                         "id": "trax-fm-jakarta",
+                        "country": "id",
                         "country_display": "Indonesia",
                         "city_display": "Jakarta",
                         "frequency": "101.4 FM",
@@ -184,7 +196,7 @@ export default {
         // c.songsurl  = '';
         // c.infourl   = '';
         // c.twitter   = '';
-        c.route     = '/channel/' + c.id;
+        c.route     = '/channel/' + c.country + '/' + c.id;
         // c.listeners = 0;
         // c.updated   = 0;
         // c.favorite  = false;

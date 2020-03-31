@@ -396,6 +396,7 @@ new Vue({
     applyRoute( route ) {
       const data   = String( route || '' ).replace( /^[\#\/]+|[\/]+$/g, '' ).trim().split( '/' );
       const action = data.length ? data.shift() : '';
+      const country = data.length ? data.shift() : '';
       const param  = data.length ? data.shift() : '';
 
       if ( !action ) {
