@@ -12,9 +12,9 @@ export default {
 
   // setup audio routing
   setupAudio() {
-    this._audio.addEventListener( 'canplaythrough', e => {
-      // this._audio.play();
-    });
+    // this._audio.addEventListener( 'canplaythrough', e => {
+    //   // this._audio.play();
+    // });
     return this._audio;
   },
 
@@ -25,11 +25,12 @@ export default {
 
   // set audio volume
   setVolume( volume ) {
-    if ( !this._gain ) return;
+    // if ( !this._gain ) return;
     volume = parseFloat( volume ) || 0.0;
     volume = ( volume < 0 ) ? 0 : volume;
     volume = ( volume > 1 ) ? 1 : volume;
-    this._gain.gain.value = volume;
+    this._audio.volume = volume;
+    // this._gain.gain.value = volume;
   },
 
   // play audio source url
@@ -39,6 +40,7 @@ export default {
     this._audio.src = String( source || '' );
     // this._audio.src = 'http://bogor.nagaswarafm.com:8088/stream';
     // this._audio.load();
+    this._audio.volume = 1;
     this._audio.play();
   },
 
