@@ -242,7 +242,7 @@
 
             <!-- sidebar stations list -->
             <ul class="player-stations-list">
-              <li class="player-stations-list-item flex-row flex-top flex-stretch" v-for="c of channelsList" :key="c.id" @click="setRoute( c.route )" :class="{ 'active': c.active }">
+              <li class="player-stations-list-item flex-row flex-top flex-stretch" v-for="c of channelsList" :key="c.id" v-if="c.secure == 1" @click="setRoute( c.route )" :class="{ 'active': c.active }">
                 <figure class="push-right if-small">
                   <img class="img-round" width="70" height="70" :src="'/assets-radio/img/stations/' + c.largeimage" :alt="c.title" />
                 </figure>
@@ -296,7 +296,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <!-- <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script> -->
-    <script src="/bundles-radio/app.min.js?v=202004020059"></script>
+    <script src="/bundles-radio/app.min.js?v=202004020229"></script>
 
   </body>
 </html>
