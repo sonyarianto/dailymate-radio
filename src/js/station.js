@@ -19,7 +19,7 @@ export default {
                       //   "stream_uri": "http://listento.ardanradio.com:1059/stream/1/",
                       //   "description": "Ardan is a favorite radio for young people in Bandung.",
                       //   "genre": "pop",
-                      //   "largeimage": "/img/stations/3.jpg"
+                      //   "largeimage": "3.jpg"
                       // },
                       // {
                       //   "id": "bens-radio-jakarta",
@@ -31,7 +31,7 @@ export default {
                       //   "stream_uri": "http://175.103.58.72:8000/;stream.mp3",
                       //   "description": "The radio which has the tagline 'Betawi Punye Gaye Sele Aje Aje' was created by the ideals of its founder to continue preserving the cultural traditions of the ancestors.",
                       //   "genre": "dangdut",
-                      //   "largeimage": "/img/stations/4.jpg"
+                      //   "largeimage": "4.jpg"
                       // },
                       {
                         "id": "thebeat-radio-plus-bali",
@@ -43,7 +43,7 @@ export default {
                         "stream_uri": "https://streaming.radio.co/sf61c46912/listen",
                         "description": "Broadcasted from Bali with the finest electronic music and more.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/5.jpg"
+                        "largeimage": "5.jpg"
                       },
                       {
                         "id": "brava-radio-jakarta",
@@ -55,7 +55,7 @@ export default {
                         "stream_uri": "https://stream.radiojar.com/5k7t0rq3bnzuv",
                         "description": "Business radio station for business people and decision makers.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/2.jpg"
+                        "largeimage": "2.jpg"
                       },
                       {
                         "id": "cosmopolitan-fm-jakarta",
@@ -67,7 +67,7 @@ export default {
                         "stream_uri": "https://stream.radiojar.com/u7d8heq3bnzuv",
                         "description": "Aimed at active, dynamic, expressive, and broad-minded women.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/2.png"
+                        "largeimage": "2.png"
                       },
                       // {
                       //   "id": "delta-fm-jakarta",
@@ -79,7 +79,7 @@ export default {
                       //   "stream_uri": "http://live.deltafm.net:9002/stream",
                       //   "description": "Delta FM is a radio station for young adults with a contemporary hot adult music format that plays the most delicious songs.",
                       //   "genre": "pop",
-                      //   "largeimage": "/img/stations/3.png"
+                      //   "largeimage": "3.png"
                       // },
                       {
                         "id": "hardrock-fm-jakarta",
@@ -91,7 +91,7 @@ export default {
                         "stream_uri": "https://stream.radiojar.com/7csmg90fuqruv",
                         "description": "Plays music of all genres and provides information about lifestyle and entertainment.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/3.jpeg"
+                        "largeimage": "3.jpeg"
                       },
                       {
                         "id": "indika-fm-jakarta",
@@ -103,7 +103,7 @@ export default {
                         "stream_uri": "https://s2.radio.co/sf58a82d7d/listen",
                         "description": "Known as clubbing radio, their tagline is \"Sounds of Jakarta\".",
                         "genre": "pop|club",
-                        "largeimage": "/img/stations/2.jpeg"
+                        "largeimage": "2.jpeg"
                       },
                       {
                         "id": "i-radio-jakarta",
@@ -115,7 +115,7 @@ export default {
                         "stream_uri": "https://stream.radiojar.com/4ywdgup3bnzuv",
                         "description": "Only plays 100 percent of Indonesian music with entertaining and inspirational content.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/1.jpeg"
+                        "largeimage": "1.jpeg"
                       },
                       {
                         "id": "prambors-jakarta",
@@ -127,7 +127,7 @@ export default {
                         "stream_uri": "http://masima.rastream.com/masima-pramborsjakarta",
                         "description": "Indonesia No.1 Hit Music Station that play pop music for teenagers and young adults.",
                         "genre": "pop",
-                        "largeimage": "/img/stations/1.png"
+                        "largeimage": "1.png"
                       },
                       // {
                       //   "id": "suarasurabaya-surabaya",
@@ -151,7 +151,7 @@ export default {
                         "stream_uri": "https://stream.radiojar.com/rrqf78p3bnzuv",
                         "description": "Youth radio station that carries the campaign \"Hits What You Like\"",
                         "genre": "pop",
-                        "largeimage": "/img/stations/1.jpg"
+                        "largeimage": "1.jpg"
                       }                      
                     ]};
 
