@@ -7,7 +7,7 @@
       "frequency": "105.9 FM",
       "title": "Ardan Radio",
       "stream_uri": "http://listento.ardanradio.com:1059/stream/1/",
-      "description": "Ardan is a favorite radio for young people in Bandung.",
+      "description": "Favorite radio for young people in Bandung.",
       "genre": "pop",
       "largeimage": "3.jpg",
       "secure": 0
@@ -20,7 +20,7 @@
       "frequency": "106.2 FM",
       "title": "Bens Radio",
       "stream_uri": "http://175.103.58.72:8000/;stream.mp3",
-      "description": "The radio which has the tagline 'Betawi Punye Gaye Sele Aje Aje' was created by the ideals of its founder to continue preserving the cultural traditions of the ancestors.",
+      "description": "Proud with tagline 'Betawi Punye Gaye Sele Aje Aje'.",
       "genre": "dangdut",
       "largeimage": "4.jpg",
       "secure": 0
@@ -72,7 +72,7 @@
       "frequency": "99.1 FM",
       "title": "Delta FM",
       "stream_uri": "http://live.deltafm.net:9002/stream",
-      "description": "Delta FM is a radio station for young adults with a contemporary hot adult music format that plays the most delicious songs.",
+      "description": "Radio station for young adults with a contemporary hot adult music.",
       "genre": "pop",
       "largeimage": "3.png",
       "secure": 0
@@ -85,7 +85,7 @@
       "frequency": "87.6 FM",
       "title": "Hard Rock FM",
       "stream_uri": "https://stream.radiojar.com/7csmg90fuqruv",
-      "description": "Plays music of all genres and provides information about lifestyle and entertainment.",
+      "description": "Plays music of all genres with information about lifestyle and entertainment.",
       "genre": "pop",
       "largeimage": "3.jpeg",
       "secure": 1
@@ -111,7 +111,7 @@
       "frequency": "89.6 FM",
       "title": "I-Radio",
       "stream_uri": "https://stream.radiojar.com/4ywdgup3bnzuv",
-      "description": "Only plays 100 percent of Indonesian music with entertaining and inspirational content.",
+      "description": "Only plays 100 percent of Indonesian music with inspirational content.",
       "genre": "pop",
       "largeimage": "1.jpeg",
       "secure": 1
@@ -137,7 +137,7 @@
       "frequency": "100 FM",
       "title": "Suara Surabaya",
       "stream_uri": "http://s9.viastreaming.net:7020/stream/1/",
-      "description": "Suara Surabaya FM is a radio that provides news about Surabaya and national news.",
+      "description": "Provides news about Surabaya and national news.",
       "genre": "pop",
       "largeimage": "4.jpeg",
       "secure": 0

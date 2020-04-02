@@ -362,6 +362,18 @@ new Vue({
     // play audio stream for a channel
     playChannel( channel ) {
       if ( this.playing || !channel ) return;
+      if ( channel.secure == 0) {
+        let channelObject = { stream_uri: channel.stream_uri, frequency: channel.frequency, title: channel.title, largeimage: channel.largeimage };
+        let encryptedChannel = _utils.encryptObject(channelObject);
+        console.log(encryptedChannel);
+        console.log(_utils.decryptObject(encryptedChannel));
+        alert('This station is coming soon!');
+        // window.open('https://google.com', 
+        //             'Google Window', 
+        //             'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=250,height=250');
+
+        return;
+      }
       this.loading = true;
       this.clearErrors();
       _audio.playSource( channel.stream_uri );

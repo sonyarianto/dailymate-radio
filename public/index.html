@@ -159,17 +159,6 @@
                     <h4 class="text-nowrap fx fx-slide-left fx-delay-1">Recent Tracks</h4>
                   </div> -->
                   <!-- <div class="card push-bottom"> -->
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Responsive 9 -->
-                    <ins class="adsbygoogle"
-                         style="display:block;"
-                         data-ad-client="ca-pub-2410702554753526"
-                         data-ad-slot="9045007400"
-                         data-ad-format="rectangle"
-                         data-full-width-responsive="false"></ins>
-                    <script>
-                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
                   <!-- </div> -->
                   <!-- <ul class="player-tracklist push-bottom" v-if="hasSongs">
                     <li v-for="( s, i ) of songsList" :key="s.date" class="card fx" :class="'fx-slide-left fx-delay-' + ( i + 2 )">
@@ -251,7 +240,7 @@
 
             <!-- sidebar stations list -->
             <ul class="player-stations-list">
-              <li class="player-stations-list-item flex-row flex-top flex-stretch" v-for="c of channelsList" :key="c.id" v-if="c.secure == 1" @click="setRoute( c.route )" :class="{ 'active': c.active }">
+              <li class="player-stations-list-item flex-row flex-top flex-stretch" v-for="c of channelsList" :key="c.id" @click="setRoute( c.route )" :class="{ 'active': c.active }">
                 <figure class="push-right if-small">
                   <img class="img-round" width="70" height="70" :src="'/assets-radio/img/stations/' + c.largeimage" :alt="c.title" />
                 </figure>
@@ -305,7 +294,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <!-- <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script> -->
-    <script src="/bundles-radio/app.min.js?v=202004021936"></script>
+    <script src="/bundles-radio/app.min.js?v=202004030241"></script>
 
   </body>
 </html>

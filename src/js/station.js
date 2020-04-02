@@ -1,7 +1,6 @@
 /**
  * Radio stations handler
  */
-import aes from 'crypto-js/aes';
 
 export default {
 

@@ -1,7 +1,20 @@
 /**
  * Common utils
  */
+// import aes from 'crypto-js/aes';
+// import cryptojs from 'crypto-js';
+
 export default {
+
+  // encrypt an object
+  // encryptObject(object) {
+  //   return aes.encrypt(JSON.stringify(object), 'dmrk').toString();
+  // },
+
+  // decryptObject(object) {
+  //   let bytes  = aes.decrypt(object, 'dmrk');
+  //   return JSON.parse(bytes.toString(cryptojs.enc.Utf8));
+  // },
 
   // get search results off a list for an obj key
   search( list, key, search ) {
