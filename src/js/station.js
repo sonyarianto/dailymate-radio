@@ -43,9 +43,9 @@ export default {
         c.route = '/channel/' + c.country + '/' + c.id;
         output.push( c );
 
-        let encC = '';
-        let encStr = aes.encrypt(JSON.stringify(c), 'dmrk').toString();
-        console.log(encStr);
+        // let encC = '';
+        // let encStr = aes.encrypt(JSON.stringify(c), 'dmrk').toString();
+        // console.log(encStr);
       }
     }
     return output;

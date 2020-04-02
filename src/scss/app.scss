@@ -48,11 +48,11 @@
     opacity: .4;
   }
   @media #{$screenMedium} {
-    margin: 0 ( $padSpace * 2 );
-    max-width: 1080px;
-    height: calc( 100vh - ( #{$padSpace} * 4 ) );
-    max-height: 700px;
-    border-radius: $lineJoin;
+    // margin: 0 ( $padSpace * 2 );
+    // max-width: 1080px;
+    // height: calc( 100vh - ( #{$padSpace} * 4 ) );
+    // max-height: 700px;
+    // border-radius: $lineJoin;
     box-shadow: $shadowContainer;
   }
 }
