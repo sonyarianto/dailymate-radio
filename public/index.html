@@ -52,6 +52,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="/bundles-radio/app.min.css?v=202003291339" />
 
+    <script data-ad-client="ca-pub-2410702554753526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
   </head>
   <body>
 
@@ -128,16 +130,16 @@
                     <div style="height:25px;"></div> -->
                     <!-- <div class="text-secondary">Description</div> -->
                     <div>{{ channel.description }}</div>
-                    <div style="height:25px;"></div>
+                    <div style="height:10px;"></div>
                     <div class="fx fx-slide-up fx-delay-2 pad-top"><button class="cta-btn" @click="togglePlay()"><i v-if="loading" class="fa fa-circle-notch fx fx-spin-right" key="wait"></i><i v-else-if="playing" class="fa fa-stop" key="stop"></i><i v-else class="fa fa-play" key="play"></i></button>&nbsp;&nbsp;<button class="cta-btn" @click="toggleSidebar( true )"><i class="fa fa-headphones">&nbsp;</i> View Stations</button></div>
                   </div>
 
                   <!-- current track -->
-                  <!-- <div class="card push-bottom fx fx-slide-up fx-delay-4" :key="track.date">
-                    <div><span class="text-secondary">{{ track.title | toText( 'N/A' ) }}</span></div>
-                    <div><span class="text-faded">From:</span> <span class="text-bright">{{ track.album | toText( 'N/A' ) }}</span></div>
-                    <div><span class="text-faded">By:</span> <span class="text-default">{{ track.artist | toText( 'N/A' ) }}</span></div>
-                  </div> -->
+                  <div class="card push-bottom fx fx-slide-up fx-delay-4" :key="track.date">
+                    <div style="margin-bottom:8px;"><span class="text-secondary">Latest News</span></div>
+                    <!-- <div><span class="text-faded">From:</span> <span class="text-bright">{{ track.album | toText( 'N/A' ) }}</span></div> -->
+                    <div><!-- <span class="text-faded">By:</span>  --><span class="text-default">Jakarta will take more serious measures other than lockdown</span></div>
+                  </div>
 
                   <!-- buttons -->
                   <div class="push-bottom text-nowrap">
@@ -155,21 +157,21 @@
                 </div>
 
                 <!-- songs list -->
-                <!-- <div class="flex-item flex-1">
-                  <div class="push-bottom">
+                <div class="flex-item flex-1">
+                  <!-- <div class="push-bottom">
                     <h4 class="text-nowrap fx fx-slide-left fx-delay-1">Recent Tracks</h4>
+                  </div> -->
+                  <div class="card push-bottom">
+                    <!-- google adsense here -->
                   </div>
-                  <div class="card push-bottom" v-if="!hasSongs">
-                    There are no songs loaded yet for this station.
-                  </div>
-                  <ul class="player-tracklist push-bottom" v-if="hasSongs">
+                  <!-- <ul class="player-tracklist push-bottom" v-if="hasSongs">
                     <li v-for="( s, i ) of songsList" :key="s.date" class="card fx" :class="'fx-slide-left fx-delay-' + ( i + 2 )">
                       <div><span class="text-secondary">{{ s.title | toText( 'N/A' ) }}</span></div>
                       <div><span class="text-faded">From:</span> <span class="text-bright">{{ s.album | toText( 'N/A' ) }}</span></div>
                       <div><span class="text-faded">By:</span> <span class="text-default">{{ s.artist | toText( 'N/A' ) }}</span></div>
                     </li>
-                  </ul>
-                </div> -->
+                  </ul> -->
+                </div>
 
               </div>
             </section>
@@ -296,7 +298,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <!-- <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script> -->
-    <script src="/bundles-radio/app.min.js?v=202004021201"></script>
+    <script src="/bundles-radio/app.min.js?v=202004021907"></script>
 
   </body>
 </html>

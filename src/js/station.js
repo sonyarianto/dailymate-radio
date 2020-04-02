@@ -1,6 +1,8 @@
 /**
  * Radio stations handler
  */
+import aes from 'crypto-js/aes';
+
 export default {
 
   // get channels data from api
@@ -40,6 +42,10 @@ export default {
       for ( let c of channels ) {
         c.route = '/channel/' + c.country + '/' + c.id;
         output.push( c );
+
+        let encC = '';
+        let encStr = aes.encrypt(JSON.stringify(c), 'dmrk').toString();
+        console.log(encStr);
       }
     }
     return output;
