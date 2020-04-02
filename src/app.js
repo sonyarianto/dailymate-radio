@@ -4,7 +4,6 @@
 import './scss/app.scss';
 import './js/filters';
 import './js/favorite';
-// import _soma from './js/soma';
 import _station from './js/station';
 import _audio from './js/audio';
 import _scene from './js/scene';
@@ -21,7 +20,6 @@ new Vue({
     playing: false,
     loading: false,
     sidebar: false,
-    // volume: 0.5,
     volume: 1,
     // channels stuff
     channels: [],
@@ -42,7 +40,6 @@ new Vue({
     anf: null,
     sto: null,
     itv: null,
-    // gesture_action: false,
   },
 
   // watch methods
@@ -160,8 +157,6 @@ new Vue({
       document.addEventListener( 'visibilitychange', e => { this.visible = ( document.visibilityState === 'visible' ) } );
       window.addEventListener( 'hashchange', e => this.applyRoute( window.location.hash ) );
       window.addEventListener( 'keydown', this.onKeyboard );
-      // window.addEventListener('click', e => { this.gesture_action = true; });
-      // document.onclick = e => { this.gesture_action = true; };
       this.init = true;
     },
 
@@ -366,8 +361,6 @@ new Vue({
 
     // play audio stream for a channel
     playChannel( channel ) {
-      // if(this.gesture_action == false) { this.gesture_action = true; return; }
-      // if ( this.playing || !channel || !channel.mp3file ) return;
       if ( this.playing || !channel ) return;
       this.loading = true;
       this.clearErrors();
