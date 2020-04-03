@@ -365,8 +365,8 @@ new Vue({
       if ( channel.secure == 0) {
         let channelObject = { stream_uri: channel.stream_uri, frequency: channel.frequency, title: channel.title, largeimage: channel.largeimage };
         let encryptedChannel = _utils.encryptObject(channelObject);
-        console.log(encryptedChannel);
-        console.log(_utils.decryptObject(encryptedChannel));
+        // console.log(encryptedChannel);
+        // console.log(_utils.decryptObject(encryptedChannel));
         alert('This station is coming soon!');
         // window.open('https://google.com', 
         //             'Google Window', 
